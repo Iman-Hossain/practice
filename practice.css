@@ -1,0 +1,114 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    
+}
+h1{
+    font-size: 50px;
+    
+}
+.font-highlight{
+
+    color: rgb(252, 150, 17);
+}
+
+.about-me{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 5%;
+    float: left;
+    height: 600px;
+    color: white;
+    letter-spacing: 0.5px;
+    
+}
+
+.about-me img {
+    width: 350px;
+    border: 6px solid rgb(177, 130, 177);
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-right: 15px;
+
+}
+.second-img img{
+    width: 400px;
+    margin: 20px;
+    margin-top: 5px;
+    border: 6px solid gray;
+    height:380px ;
+    border-radius: 50%;
+    float: left;
+
+}
+
+.top-button{
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: rebeccapurple;
+    letter-spacing: 3px;
+    background-image: linear-gradient(2deg,rgb(22, 88, 150),white);
+    border-radius: 5px;
+    color: rgb(243, 239, 239);
+}
+.top-banner {
+    background: linear-gradient(rgba(128, 0, 128, 0.459),rgba(128, 0, 128, 0.705)),url("./images/my/background.jpg");
+    background-repeat: no-repeat;
+    height: 550px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left center;
+    
+    
+}
+.middle-banner {
+    background: linear-gradient( rgba(0, 0, 255, 0.651),rgba(0, 0, 255, 0.747)) ,url("./images/my/background3.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+
+}
+.bottom-banner {
+    background: linear-gradient(rgba(38, 51, 173, 0.658),rgba(134, 41, 196, 0.562)) ,url("./images/my/background-5.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+    padding: 10px;
+}
+.bottom-banner h1{
+    color: white;
+    text-align: center;
+
+    margin: 10px 10px;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px rgb(29, 21, 21) ;
+    height: 250px;
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border-left: 7px solid rgb(230, 36, 36);
+
+}
+
+
+footer p{
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+footer{
+    background: rgba(59, 133, 230, 0.815);
+    margin: 0;
+    padding: 0.5px;
+    border-top: black 1px solid ;
+    color: white;
+
+}
